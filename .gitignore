@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Custom for this project
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/raw/*
+data/processed/*
