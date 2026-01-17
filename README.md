@@ -1,5 +1,6 @@
 # tricky-clicker
 AI to classify yoyo tricks and score trick sequences
+(Pivoted the project to make a neural network that "clicks" yoyo video perfomances. More like an AI judge)
 
 # Install pyenv (Windows)
 https://github.com/pyenv-win/pyenv-win
