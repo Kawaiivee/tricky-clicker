@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  trick-classifier:
+    build: .
+    container_name: trick-classifier
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jupyter/notebooks
+      - ./data:/home/jupyter/data
