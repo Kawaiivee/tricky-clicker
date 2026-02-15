@@ -4,7 +4,7 @@ services:
     build: .
     container_name: routine-judger
     ports:
-      - "8890:8890"
+      - "9002:8888"
     volumes:
       - ./notebooks:/home/jupyter/notebooks
       - ./data:/home/jupyter/data

@@ -4,7 +4,7 @@ services:
     build: .
     container_name: trick-classifier
     ports:
-      - "8888:8888"
+      - "9000:8888"
     volumes:
       - ./notebooks:/home/jupyter/notebooks
       - ./data:/home/jupyter/data
