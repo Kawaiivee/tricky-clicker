@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  routine-judger:
+    build: .
+    container_name: routine-judger
+    ports:
+      - "8890:8890"
+    volumes:
+      - ./notebooks:/home/jupyter/notebooks
+      - ./data:/home/jupyter/data

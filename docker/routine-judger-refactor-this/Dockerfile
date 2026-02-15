@@ -29,5 +29,5 @@ RUN pip install --upgrade pip && \
     scipy scikit-learn statsmodels notebook opencv-python
 
 WORKDIR /home/jupyter
-EXPOSE 9694
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--NotebookApp.token=password123"]
+EXPOSE 9696
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8890", "--no-browser", "--allow-root", "--NotebookApp.token=password123"]
